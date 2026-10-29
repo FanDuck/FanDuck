@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 190" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgCadenza" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070B14" />
+      <stop offset="60%" stop-color="#141118" />
+      <stop offset="100%" stop-color="#1A120B" />
+    </linearGradient>
+    <linearGradient id="borderCadenza" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.75" />
+      <stop offset="50%" stop-color="#EC4899" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.6" />
+    </linearGradient>
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace; }
+      .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="996" height="186" rx="12" fill="url(#bgCadenza)" stroke="url(#borderCadenza)" stroke-width="1.5" />
+  <rect x="2" y="2" width="5" height="186" rx="2.5" fill="#F59E0B" />
+
+  <!-- Left Content Area -->
+  <g transform="translate(30, 34)">
+    <text x="0" y="6" fill="#FBBF24" font-size="13" font-weight="700" class="mono">03 // PLUGIN-FIRST AUDIO ENGINE &amp; DESKTOP PLAYER</text>
+    
+    <text x="0" y="38" fill="#F8FAFC" font-size="24" font-weight="800" class="sans">🎼 Cadenza</text>
+    <rect x="160" y="19" width="76" height="22" rx="5" fill="#F59E0B" fill-opacity="0.14" stroke="#F59E0B" stroke-opacity="0.45" />
+    <text x="198" y="34" text-anchor="middle" fill="#FBBF24" font-size="11" font-weight="600" class="mono">v0.1.0</text>
+    <rect x="244" y="19" width="128" height="22" rx="5" fill="#10B981" fill-opacity="0.14" stroke="#10B981" stroke-opacity="0.45" />
+    <text x="308" y="34" text-anchor="middle" fill="#34D399" font-size="11" font-weight="600" class="mono">Build: tsc-only</text>
+
+    <!-- Description -->
+    <text x="0" y="68" fill="#CBD5E1" font-size="13.5" class="sans">
+      UI-agnostic engine (<tspan fill="#FBBF24" class="mono" font-size="12.5">@fanduck/cadenza-core</tspan>) + replaceable Web Components UI for Windows.
+    </text>
+    <text x="0" y="90" fill="#94A3B8" font-size="12.5" class="sans">
+      From-scratch binary tag parsers (ID3v2, Vorbis, MP4, RIFF/WAVE) · Zero native modules · First-class Plugin Host
+    </text>
+
+    <!-- Tech Stack Pills -->
+    <g transform="translate(0, 110)">
+      <rect x="0" y="0" width="96" height="24" rx="5" fill="#0F172A" stroke="#1E293B" />
+      <circle cx="14" cy="12" r="4" fill="#3178C6" />
+      <text x="24" y="16" fill="#E2E8F0" font-size="11" class="mono">TypeScript</text>
+
+      <rect x="104" y="0" width="84" height="24" rx="5" fill="#0F172A" stroke="#1E293B" />
+      <text x="146" y="16" text-anchor="middle" fill="#38BDF8" font-size="11" class="mono">Electron</text>
+
+      <rect x="196" y="0" width="122" height="24" rx="5" fill="#0F172A" stroke="#1E293B" />
+      <text x="257" y="16" text-anchor="middle" fill="#FBBF24" font-size="11" class="mono">Web Components</text>
+
+      <rect x="326" y="0" width="126" height="24" rx="5" fill="#0F172A" stroke="#1E293B" />
+      <text x="389" y="16" text-anchor="middle" fill="#94A3B8" font-size="11" class="mono">FLAC / ALAC / ID3</text>
+
+      <rect x="460" y="0" width="96" height="24" rx="5" fill="#0F172A" stroke="#1E293B" />
+      <text x="508" y="16" text-anchor="middle" fill="#34D399" font-size="11" class="mono">No Bundler</text>
+    </g>
+  </g>
+
+  <!-- Right Architecture Blueprint Box -->
+  <g transform="translate(615, 20)">
+    <rect x="0" y="0" width="360" height="150" rx="8" fill="#060A11" stroke="#1E293B" stroke-width="1" />
+    <text x="14" y="20" fill="#64748B" font-size="10.5" font-weight="600" class="mono">DECOUPLED // TWO-LAYER ARCHITECTURE</text>
+    <line x1="14" y1="28" x2="346" y2="28" stroke="#1E293B" stroke-width="1" />
+
+    <!-- Layer 1 -->
+    <rect x="14" y="40" width="154" height="42" rx="6" fill="#0F172A" stroke="#F59E0B" stroke-opacity="0.5" />
+    <text x="91" y="58" text-anchor="middle" fill="#FBBF24" font-size="10.5" font-weight="700" class="mono">cadenza-core</text>
+    <text x="91" y="73" text-anchor="middle" fill="#64748B" font-size="9" class="mono">State · Queue · Parsers</text>
+
+    <text x="180" y="65" text-anchor="middle" fill="#FBBF24" font-size="13" class="mono">⇄</text>
+
+    <!-- Layer 2 -->
+    <rect x="192" y="40" width="154" height="42" rx="6" fill="#0F172A" stroke="#38BDF8" stroke-opacity="0.5" />
+    <text x="269" y="58" text-anchor="middle" fill="#38BDF8" font-size="10.5" font-weight="700" class="mono">Plugin Host API</text>
+    <text x="269" y="73" text-anchor="middle" fill="#64748B" font-size="9" class="mono">Full UI &amp; State Access</text>
+
+    <!-- Bottom Shell -->
+    <rect x="14" y="96" width="332" height="40" rx="6" fill="#F59E0B" fill-opacity="0.08" stroke="#F59E0B" stroke-opacity="0.4" />
+    <text x="180" y="114" text-anchor="middle" fill="#F8FAFC" font-size="11" font-weight="600" class="mono">🎵 Themeable Desktop App (Win 10/11) &amp; Web Demo</text>
+    <text x="180" y="128" text-anchor="middle" fill="#94A3B8" font-size="9.5" class="mono">Zero DOM in Core · Pure TypeScript Compiler Pipeline</text>
+  </g>
+</svg>

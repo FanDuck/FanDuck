@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 190" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgSynapse" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070B14" />
+      <stop offset="60%" stop-color="#0B1324" />
+      <stop offset="100%" stop-color="#111026" />
+    </linearGradient>
+    <linearGradient id="borderSynapse" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.7" />
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.6" />
+    </linearGradient>
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace; }
+      .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="996" height="186" rx="12" fill="url(#bgSynapse)" stroke="url(#borderSynapse)" stroke-width="1.5" />
+  <rect x="2" y="2" width="5" height="186" rx="2.5" fill="#06B6D4" />
+
+  <!-- Left Content Area -->
+  <g transform="translate(30, 34)">
+    <text x="0" y="6" fill="#38BDF8" font-size="13" font-weight="700" class="mono">02 // LOCAL-FIRST AIGC WORKBENCH &amp; PIPELINE</text>
+    
+    <text x="0" y="38" fill="#F8FAFC" font-size="24" font-weight="800" class="sans">🧬 SynapsePipe</text>
+    <rect x="200" y="19" width="92" height="22" rx="5" fill="#06B6D4" fill-opacity="0.14" stroke="#06B6D4" stroke-opacity="0.45" />
+    <text x="246" y="34" text-anchor="middle" fill="#22D3EE" font-size="11" font-weight="600" class="mono">Local-First</text>
+    <rect x="300" y="19" width="118" height="22" rx="5" fill="#8B5CF6" fill-opacity="0.14" stroke="#8B5CF6" stroke-opacity="0.45" />
+    <text x="359" y="34" text-anchor="middle" fill="#A78BFA" font-size="11" font-weight="600" class="mono">Zero Telemetry</text>
+
+    <!-- Description -->
+    <text x="0" y="68" fill="#CBD5E1" font-size="13.5" class="sans">
+      Closes the <tspan fill="#22D3EE" font-weight="600">Idea → Structured Prompt → Traceable Asset</tspan> loop entirely on your own machine.
+    </text>
+    <text x="0" y="90" fill="#94A3B8" font-size="12.5" class="sans">
+      Bilingual prompts · Reusable <tspan fill="#FBBF24" class="mono" font-size="11.5">[variables]</tspan> · Full seed/model lineage · Encrypted-at-rest API keys
+    </text>
+
+    <!-- Tech Stack Pills -->
+    <g transform="translate(0, 110)">
+      <rect x="0" y="0" width="96" height="24" rx="5" fill="#0F172A" stroke="#1E293B" />
+      <circle cx="14" cy="12" r="4" fill="#3178C6" />
+      <text x="24" y="16" fill="#E2E8F0" font-size="11" class="mono">TypeScript</text>
+
+      <rect x="104" y="0" width="92" height="24" rx="5" fill="#0F172A" stroke="#1E293B" />
+      <text x="150" y="16" text-anchor="middle" fill="#E2E8F0" font-size="11" class="mono">Next.js 15</text>
+
+      <rect x="204" y="0" width="84" height="24" rx="5" fill="#0F172A" stroke="#1E293B" />
+      <text x="246" y="16" text-anchor="middle" fill="#38BDF8" font-size="11" class="mono">React 19</text>
+
+      <rect x="296" y="0" width="102" height="24" rx="5" fill="#0F172A" stroke="#1E293B" />
+      <text x="347" y="16" text-anchor="middle" fill="#A3E635" font-size="11" class="mono">Drizzle ORM</text>
+
+      <rect x="406" y="0" width="76" height="24" rx="5" fill="#0F172A" stroke="#1E293B" />
+      <text x="444" y="16" text-anchor="middle" fill="#94A3B8" font-size="11" class="mono">SQLite</text>
+
+      <rect x="490" y="0" width="84" height="24" rx="5" fill="#0F172A" stroke="#1E293B" />
+      <text x="532" y="16" text-anchor="middle" fill="#38BDF8" font-size="11" class="mono">Tailwind 4</text>
+    </g>
+  </g>
+
+  <!-- Right Architecture Blueprint Box -->
+  <g transform="translate(615, 20)">
+    <rect x="0" y="0" width="360" height="150" rx="8" fill="#060A11" stroke="#1E293B" stroke-width="1" />
+    <text x="14" y="20" fill="#64748B" font-size="10.5" font-weight="600" class="mono">PIPELINE // REPRODUCIBLE LINEAGE</text>
+    <line x1="14" y1="28" x2="346" y2="28" stroke="#1E293B" stroke-width="1" />
+
+    <!-- Stage 1 -->
+    <rect x="14" y="40" width="100" height="42" rx="6" fill="#0F172A" stroke="#06B6D4" stroke-opacity="0.5" />
+    <text x="64" y="58" text-anchor="middle" fill="#22D3EE" font-size="10.5" font-weight="700" class="mono">Prompt Schema</text>
+    <text x="64" y="73" text-anchor="middle" fill="#64748B" font-size="9" class="mono">Style · [Vars]</text>
+
+    <text x="124" y="65" text-anchor="middle" fill="#64748B" font-size="12" class="mono">→</text>
+
+    <!-- Stage 2 -->
+    <rect x="134" y="40" width="96" height="42" rx="6" fill="#0F172A" stroke="#8B5CF6" stroke-opacity="0.5" />
+    <text x="182" y="58" text-anchor="middle" fill="#A78BFA" font-size="10.5" font-weight="700" class="mono">AI Studio</text>
+    <text x="182" y="73" text-anchor="middle" fill="#64748B" font-size="9" class="mono">Seed · Params</text>
+
+    <text x="240" y="65" text-anchor="middle" fill="#64748B" font-size="12" class="mono">→</text>
+
+    <!-- Stage 3 -->
+    <rect x="250" y="40" width="96" height="42" rx="6" fill="#0F172A" stroke="#10B981" stroke-opacity="0.5" />
+    <text x="298" y="58" text-anchor="middle" fill="#34D399" font-size="10.5" font-weight="700" class="mono">Asset Vault</text>
+    <text x="298" y="73" text-anchor="middle" fill="#64748B" font-size="9" class="mono">100% Traceable</text>
+
+    <!-- Bottom Storage Bar -->
+    <rect x="14" y="96" width="332" height="40" rx="6" fill="#06B6D4" fill-opacity="0.08" stroke="#06B6D4" stroke-opacity="0.4" />
+    <text x="180" y="114" text-anchor="middle" fill="#F8FAFC" font-size="11" font-weight="600" class="mono">🔒 Local SQLite (data/) + AES Encrypted Keys</text>
+    <text x="180" y="128" text-anchor="middle" fill="#94A3B8" font-size="9.5" class="mono">Server Actions · Optimistic UI · Docker Ready</text>
+  </g>
+</svg>

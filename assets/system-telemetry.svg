@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 140" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgTel" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#070B14" />
+      <stop offset="50%" stop-color="#0B1220" />
+      <stop offset="100%" stop-color="#070B14" />
+    </linearGradient>
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace; }
+      .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="996" height="136" rx="12" fill="url(#bgTel)" stroke="#1E293B" stroke-width="1.5" />
+
+  <!-- Pillar 1 -->
+  <g transform="translate(24, 22)">
+    <rect x="0" y="0" width="304" height="96" rx="8" fill="#0A101D" stroke="#1E293B" />
+    <text x="16" y="24" fill="#10B981" font-size="11" font-weight="700" class="mono">[01] ZERO-BLOAT ENGINEERING</text>
+    <text x="16" y="48" fill="#F8FAFC" font-size="13.5" font-weight="700" class="sans">Pure Compilers &amp; Binary Parsers</text>
+    <text x="16" y="68" fill="#94A3B8" font-size="11.5" class="sans">Hand-rolled ID3/Vorbis/MP4 parsers, tsc-only</text>
+    <text x="16" y="84" fill="#64748B" font-size="11" class="sans">builds, and zero unnecessary runtime bloat.</text>
+  </g>
+
+  <!-- Pillar 2 -->
+  <g transform="translate(348, 22)">
+    <rect x="0" y="0" width="304" height="96" rx="8" fill="#0A101D" stroke="#1E293B" />
+    <text x="16" y="24" fill="#38BDF8" font-size="11" font-weight="700" class="mono">[02] LOCAL-FIRST SOVEREIGNTY</text>
+    <text x="16" y="48" fill="#F8FAFC" font-size="13.5" font-weight="700" class="sans">Own Your Data, Keys &amp; Memory</text>
+    <text x="16" y="68" fill="#94A3B8" font-size="11.5" class="sans">Embedded SQLite, AES encrypted credentials,</text>
+    <text x="16" y="84" fill="#64748B" font-size="11" class="sans">and zero mandatory cloud telemetry.</text>
+  </g>
+
+  <!-- Pillar 3 -->
+  <g transform="translate(672, 22)">
+    <rect x="0" y="0" width="304" height="96" rx="8" fill="#0A101D" stroke="#1E293B" />
+    <text x="16" y="24" fill="#A78BFA" font-size="11" font-weight="700" class="mono">[03] UNSEALED &amp; AUTONOMOUS</text>
+    <text x="16" y="48" fill="#F8FAFC" font-size="13.5" font-weight="700" class="sans">Plugin Hosts &amp; Evolving Skills</text>
+    <text x="16" y="68" fill="#94A3B8" font-size="11.5" class="sans">Replaceable UI layers, first-class plugin APIs,</text>
+    <text x="16" y="84" fill="#64748B" font-size="11" class="sans">and self-distilling SKILL.md agent loops.</text>
+  </g>
+</svg>

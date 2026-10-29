@@ -1,21 +1,181 @@
+<div align="center">
+
+<!-- CUSTOM TERMINAL HERO BANNER (ZERO EXTERNAL LATENCY) -->
+<a href="https://github.com/FanDuck">
+  <img src="./assets/header-terminal.svg" alt="FanDuck — Systems & AI Architect Terminal" width="100%" />
+</a>
+
+<br/>
+
+<!-- REFINED GEOMETRIC TYPING LINE -->
+<a href="https://github.com/FanDuck">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=2800&pause=900&color=10B981&center=true&vCenter=true&width=860&height=32&lines=%24+building+autonomous+agents%2C+local-first+workbenches+%26+zero-bloat+engines;%24+AetherClaw+%E2%80%94+Cross-Platform+Self-Evolving+AI+Agent+(OpenClaw+%C3%97+Hermes);%24+SynapsePipe+%E2%80%94+Local-First+AIGC+Creative+Pipeline+(Next.js+15+%2B+SQLite);%24+Cadenza+%E2%80%94+Plugin-First+Audio+Framework+%26+Pure+tsc+Desktop+Player" alt="Terminal Typing Output" />
+</a>
+
+<!-- LIVE REPOSITORY CI & TELEMETRY BADGES -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,30:02140d,70:00ff66,100:000000&height=220&section=header&text=CHIEF_ARCHITECT:_FANDUCK&fontSize=30&fontColor=00ff66&fontAlignY=35&desc=GLOBAL_DEBIAN_NODES_|_AUTONOMOUS_AI_AGENTS_|_QUANTUM_MESH&descSize=13&descColor=00f0ff&animation=scaleUp" />
+  <a href="https://github.com/FanDuck/AetherClaw/actions"><img src="https://img.shields.io/github/actions/workflow/status/FanDuck/AetherClaw/ci.yml?branch=main&style=flat-square&logo=githubactions&logoColor=white&label=AetherClaw%20CI&color=10B981" alt="AetherClaw CI" /></a>
+  <a href="https://github.com/FanDuck/cadenza/actions"><img src="https://img.shields.io/github/actions/workflow/status/FanDuck/cadenza/ci.yml?branch=main&style=flat-square&logo=githubactions&logoColor=white&label=Cadenza%20CI&color=F59E0B" alt="Cadenza CI" /></a>
+  <a href="https://github.com/FanDuck/SynapsePipe"><img src="https://img.shields.io/badge/SynapsePipe-Local--First-06B6D4?style=flat-square&logo=sqlite&logoColor=white" alt="SynapsePipe" /></a>
+  <img src="https://img.shields.io/badge/OS-Debian%20%7C%20Windows%2011-38BDF8?style=flat-square&logo=debian&logoColor=white" alt="OS" />
+  <img src="https://img.shields.io/badge/License-MIT-A78BFA?style=flat-square" alt="License: MIT" />
+  <img src="https://komarev.com/ghpvc/?username=FanDuck&color=10B981&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
 </p>
 
-<p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=900&size=16&duration=2500&pause=500&color=00FF66&center=true&vCenter=true&width=850&lines=%3E+INITIALIZING_FANDUCK_NEURAL_CORE...;%3E+DEPLOYING_AUTONOMOUS_AI_AGENT_SWARM+(OpenClaw+%26+Hermes);%3E+ROUTING_GLOBAL_EDGES:_VLESS-REALITY-VISION_+_XHTTP;%3E+MASTERING_THE_PLANET_WITH_UNRIVALED_TECH_STACK." alt="Typing SVG" /></a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AI_SUPREMACY-AUTONOMOUS_SWARM-00ff66?style=for-the-badge&logo=openai&logoColor=black" />
-  <img src="https://img.shields.io/badge/GLOBAL_NODES-ZERO_LATENCY-00f0ff?style=for-the-badge&logo=cloudflare&logoColor=black" />
-  <img src="https://img.shields.io/badge/SECURITY-MILITARY_GRADE-ffb000?style=for-the-badge&logo=letsencrypt&logoColor=black" />
-  <img src="https://komarev.com/ghpvc/?username=FanDuck&color=00ff66&style=for-the-badge&label=ACTIVE_OVERSEERS" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
-</p>
+</div>
 
 ---
 
+### `❯ cat /etc/fanduck/manifesto.yaml`
+
+```yaml
+architect: "FanDuck"
+focus:
+  - Autonomous AI Agents & Procedural Skill Evolution (OpenClaw × Hermes paradigm)
+  - Local-First Software & Reproducible Creative Pipelines (SQLite / Encrypted-at-Rest)
+  - Decoupled Framework Design, Binary Protocol Parsing & Cross-Platform Tooling
+  - Debian GNU/Linux Infrastructure, Containerization & Low-Latency Edge Networking
+philosophy: >
+  "Most software is a sealed box weighed down by bloated dependency trees and cloud lock-in.
+   I build systems meant to be opened: zero-bloat cores, local-first data sovereignty,
+   and autonomous workflows that run natively on your own metal."
+```
+
+<div align="center">
+  <img src="./assets/system-telemetry.svg" alt="Core Engineering Pillars" width="100%" />
+</div>
+
+---
+
+### `❯ ls -la ~/flagship-systems/`
+
+> **Click any blueprint card below** to inspect the repository, or expand the technical dossier underneath for architecture notes & 1-minute quick starts.
+
+#### 01 · [AetherClaw (灵爪)](https://github.com/FanDuck/AetherClaw) — *Self-Evolving Autonomous AI Agent Framework*
+
+<a href="https://github.com/FanDuck/AetherClaw">
+  <img src="./assets/card-aetherclaw.svg" alt="AetherClaw Architecture Card" width="100%" />
+</a>
+
+<p align="right">
+  <sub>
+    <a href="https://github.com/FanDuck/AetherClaw"><b>📦 Repository</b></a> ·
+    <a href="https://github.com/FanDuck/AetherClaw/blob/main/README.en.md"><b>🌐 English Docs</b></a> ·
+    <a href="https://github.com/FanDuck/AetherClaw/blob/main/docs/API_REFERENCE.md"><b>🔌 HTTP API</b></a> ·
+    <a href="https://github.com/FanDuck/AetherClaw/releases"><b>🚀 Releases (v1.3.0)</b></a>
+  </sub>
+</p>
+
+<details>
+<summary><code>⚡ Inspect AetherClaw Architecture, Highlights &amp; Quick Start</code></summary>
+<br/>
+
+- **Why it exists:** Combines **OpenClaw's** real host actuation (terminal execution, file I/O, environment probing) with **Hermes Agent's** hierarchical memory and procedural **`SKILL.md` self-evolution**—engineered with **zero heavy dependency bloat**.
+- **Key Systems Engineering:**
+  - **Native `PlatformAdapter`**: Dispatches seamlessly to `powershell.exe` (with automatic UTF-8 normalization) on Windows or `bash` on Linux, guarded by regex safety policies and execution timeouts.
+  - **3-Tier Memory (`MemoryAndSkillEngine`)**: Episodic traces (`Thought → Tool Call → Observation`), persistent Semantic facts (`data/memory.json`), and autonomous distillation of multi-step workflows into reusable `SKILL.md` modules.
+  - **Dual Control Plane**: Ships with both a **Zero-Code Visual Web Console** and an **Interactive Terminal CLI**, plus a developer REST API.
+
+```bash
+git clone https://github.com/FanDuck/AetherClaw.git && cd AetherClaw
+npm start
+```
+</details>
+
+<br/>
+
+#### 02 · [SynapsePipe](https://github.com/FanDuck/SynapsePipe) — *Local-First AIGC Workbench & Creative Pipeline*
+
+<a href="https://github.com/FanDuck/SynapsePipe">
+  <img src="./assets/card-synapsepipe.svg" alt="SynapsePipe Architecture Card" width="100%" />
+</a>
+
+<p align="right">
+  <sub>
+    <a href="https://github.com/FanDuck/SynapsePipe"><b>📦 Repository</b></a> ·
+    <a href="https://github.com/FanDuck/SynapsePipe/blob/main/README.md"><b>📖 English Docs</b></a> ·
+    <a href="https://github.com/FanDuck/SynapsePipe/blob/main/README.zh-CN.md"><b>🇨🇳 中文文档</b></a> ·
+    <a href="https://github.com/FanDuck/SynapsePipe#-architecture"><b>🏗️ Architecture</b></a>
+  </sub>
+</p>
+
+<details>
+<summary><code>⚡ Inspect SynapsePipe Pipeline Design, Highlights &amp; Quick Start</code></summary>
+<br/>
+
+- **Why it exists:** Most AIGC workflows leak—prompts get lost in chats, seeds hide in screenshots, and outputs pile up in `Downloads/`. **SynapsePipe** closes the **`Idea → Prompt → Assets`** loop inside a single local-first workspace.
+- **Key Systems Engineering:**
+  - **Structured Prompt Schema**: Prompts are first-class entities carrying bilingual copy, camera/style taxonomy, target model, aspect ratio, negative prompts, and dynamic `[variables]`.
+  - **Deterministic Lineage**: Every generated or imported asset snapshots its exact prompt state, seed, model parameters, and tags for 100% reproducibility.
+  - **Sovereign Local Storage**: Powered by **Next.js 15, React 19, TypeScript 5, Tailwind CSS v4, Drizzle ORM, and local SQLite (`data/`)** with encrypted-at-rest API keys and zero cloud telemetry.
+
+```bash
+git clone https://github.com/FanDuck/SynapsePipe.git && cd SynapsePipe
+npm install && npm run dev
+```
+</details>
+
+<br/>
+
+#### 03 · [Cadenza](https://github.com/FanDuck/cadenza) — *Plugin-First Audio Framework & Desktop Player*
+
+<a href="https://github.com/FanDuck/cadenza">
+  <img src="./assets/card-cadenza.svg" alt="Cadenza Architecture Card" width="100%" />
+</a>
+
+<p align="right">
+  <sub>
+    <a href="https://github.com/FanDuck/cadenza"><b>📦 Repository</b></a> ·
+    <a href="https://github.com/FanDuck/cadenza/blob/main/docs/ARCHITECTURE.md"><b>🏗️ Architecture</b></a> ·
+    <a href="https://github.com/FanDuck/cadenza/blob/main/README.zh-CN.md"><b>🇨🇳 中文说明</b></a> ·
+    <a href="https://github.com/FanDuck/cadenza/releases"><b>💿 Windows Releases (v0.1.0)</b></a>
+  </sub>
+</p>
+
+<details>
+<summary><code>⚡ Inspect Cadenza Core Engine, Binary Parsers &amp; Quick Start</code></summary>
+<br/>
+
+- **Why it exists:** Most music players are sealed boxes. **Cadenza** splits the problem into a pure, headless engine (`@fanduck/cadenza-core`) and a replaceable, themeable desktop reference player (`apps/desktop`) where plugins enjoy the exact same privileges as built-in UI components.
+- **Key Systems Engineering:**
+  - **UI-Agnostic Core (`@fanduck/cadenza-core`)**: Zero DOM, zero Electron, and zero framework dependencies—manages playback state machines, queues, playlists, synchronized lyrics, and the plugin host.
+  - **From-Scratch Binary Tag Parsers**: Hand-written in pure TypeScript with **no native node modules**—parses `ID3v2.2/2.3/2.4`, `Vorbis comments`, `MP4 atoms`, and `RIFF/WAVE` metadata + embedded cover art caching in a non-blocking process.
+  - **Pure `tsc` Build Pipeline**: Compiles cleanly with the TypeScript compiler alone—no bundler complexity, shipping as portable/installer builds for Windows 10/11.
+
+```bash
+git clone https://github.com/FanDuck/cadenza.git && cd cadenza
+pnpm install && pnpm demo
+```
+</details>
+
+---
+
+### `❯ htop --tech-radar`
+
+| Layer | Core Technologies & Protocols | Engineering Application |
+| :--- | :--- | :--- |
+| **🧠 Autonomous AI & Agents** | ![OpenAI](https://img.shields.io/badge/-Multi--LLM_Routing-0F172A?style=flat-square&logo=openai&logoColor=10B981) ![Hermes](https://img.shields.io/badge/-SKILL.md_Evolution-0F172A?style=flat-square&logoColor=38BDF8) ![Prompt](https://img.shields.io/badge/-Structured_AIGC-0F172A?style=flat-square) | Episodic/Semantic/Procedural agent memory, tool-calling guardrails, reproducible prompt studios (`AetherClaw`, `SynapsePipe`) |
+| **⚙️ Systems & Client Core** | ![TypeScript](https://img.shields.io/badge/-TypeScript_5-0F172A?style=flat-square&logo=typescript&logoColor=3178C6) ![Node.js](https://img.shields.io/badge/-Node.js_Runtime-0F172A?style=flat-square&logo=nodedotjs&logoColor=339933) ![Electron](https://img.shields.io/badge/-Electron-0F172A?style=flat-square&logo=electron&logoColor=47848F) ![Web Components](https://img.shields.io/badge/-Web_Components-0F172A?style=flat-square&logo=webcomponentsdotorg&logoColor=F59E0B) | Headless state machines, plugin host sandboxes, binary stream decoders, zero-bundler `tsc` pipelines (`Cadenza`) |
+| **🌐 Modern Web & UI** | ![Next.js](https://img.shields.io/badge/-Next.js_15-0F172A?style=flat-square&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/-React_19-0F172A?style=flat-square&logo=react&logoColor=61DAFB) ![Tailwind](https://img.shields.io/badge/-Tailwind_CSS_4-0F172A?style=flat-square&logo=tailwindcss&logoColor=06B6D4) | React Server Components, Server Actions, optimistic UI, Framer Motion micro-interactions (`SynapsePipe`) |
+| **🗄️ Local-First Data** | ![SQLite](https://img.shields.io/badge/-SQLite-0F172A?style=flat-square&logo=sqlite&logoColor=003B57) ![Drizzle](https://img.shields.io/badge/-Drizzle_ORM-0F172A?style=flat-square&logo=drizzle&logoColor=C5F74F) ![AES](https://img.shields.io/badge/-AES_At--Rest-0F172A?style=flat-square&logo=letsencrypt&logoColor=10B981) | Embedded relational persistence, schema migrations, zero-telemetry local vaults, binary tag & artwork caching |
+| **🐧 Infra, Linux & Edge** | ![Debian](https://img.shields.io/badge/-Debian_GNU%2FLinux-0F172A?style=flat-square&logo=debian&logoColor=A81D33) ![Docker](https://img.shields.io/badge/-Docker-0F172A?style=flat-square&logo=docker&logoColor=2496ED) ![Shell](https://img.shields.io/badge/-Bash_%26_PowerShell-0F172A?style=flat-square&logo=gnubash&logoColor=4EAA25) ![Cloudflare](https://img.shields.io/badge/-Edge_Networking-0F172A?style=flat-square&logo=cloudflare&logoColor=F38020) | Cross-platform shell automation, GitHub Actions CI/CD, containerized self-hosting, high-throughput edge routing |
+
+---
+
+### `❯ git log --stat --oneline`
+
+<div align="center">
+
+| Project | Domain | Architecture Pattern | Stack | License |
+| :--- | :--- | :--- | :--- | :---: |
+| **[🦅 AetherClaw](https://github.com/FanDuck/AetherClaw)** | Autonomous AI Agent | `PlatformAdapter` + 3-Tier Memory + `SKILL.md` | `Node.js` · `JS` · `Web Console` · `CLI` | `MIT` |
+| **[🧬 SynapsePipe](https://github.com/FanDuck/SynapsePipe)** | AIGC Creative Workbench | Local-First Pipeline + Deterministic Lineage | `Next.js 15` · `React 19` · `Drizzle` · `SQLite` | `MIT` |
+| **[🎼 Cadenza](https://github.com/FanDuck/cadenza)** | Desktop Audio Framework | Headless Core + Plugin Host + Binary Parsers | `TypeScript` · `Electron` · `Web Components` | `MIT` |
+
+<br/>
+
+<sub>
+  <code>EOF // Engineered with zero bloat by <a href="https://github.com/FanDuck">@FanDuck</a> · All systems operational.</code>
+</sub>
+
+</div>

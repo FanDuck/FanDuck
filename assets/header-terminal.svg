@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06090F" />
+      <stop offset="50%" stop-color="#0B111E" />
+      <stop offset="100%" stop-color="#070B12" />
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#06B6D4" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.5" />
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="55%" stop-color="#E2E8F0" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <radialGradient id="glowEmerald" cx="80%" cy="25%" r="45%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="20%" cy="85%" r="45%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1E293B" stroke-width="0.6" stroke-opacity="0.45" />
+    </pattern>
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+      .sans { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .cursor { animation: blink 1.1s step-end infinite; }
+      .pulse { animation: pulseGlow 3s ease-in-out infinite; }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      @keyframes pulseGlow { 0%, 100% { opacity: 0.55; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+
+  <!-- Main Outer Container -->
+  <rect x="2" y="2" width="996" height="336" rx="14" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.5" />
+  <rect x="2" y="2" width="996" height="336" rx="14" fill="url(#grid)" />
+  <rect x="2" y="2" width="996" height="336" rx="14" fill="url(#glowEmerald)" />
+  <rect x="2" y="2" width="996" height="336" rx="14" fill="url(#glowCyan)" />
+
+  <!-- Top Terminal Chrome Bar -->
+  <path d="M 2 16 Q 2 2 16 2 L 984 2 Q 998 2 998 16 L 998 42 L 2 42 Z" fill="#0D1526" fill-opacity="0.88" />
+  <line x1="2" y1="42" x2="998" y2="42" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Window Controls -->
+  <circle cx="24" cy="22" r="5.5" fill="#EF4444" fill-opacity="0.85" />
+  <circle cx="42" cy="22" r="5.5" fill="#F59E0B" fill-opacity="0.85" />
+  <circle cx="60" cy="22" r="5.5" fill="#10B981" fill-opacity="0.85" />
+
+  <!-- Terminal Title -->
+  <text x="500" y="26" text-anchor="middle" fill="#64748B" font-size="12" class="mono">fanduck@debian-edge: ~/systems-architecture (zsh — 1000×340)</text>
+
+  <!-- Right Telemetry Pill in Titlebar -->
+  <circle cx="888" cy="22" r="4" fill="#10B981" class="pulse" />
+  <text x="898" y="26" fill="#10B981" font-size="11" font-weight="600" class="mono">NODES: ONLINE</text>
+
+  <!-- Left Column: Prompt & Identity -->
+  <g transform="translate(38, 74)">
+    <!-- Command Line -->
+    <text x="0" y="0" fill="#10B981" font-size="13" font-weight="700" class="mono">❯</text>
+    <text x="18" y="0" fill="#38BDF8" font-size="13" class="mono">whoami</text>
+    <text x="72" y="0" fill="#64748B" font-size="13" class="mono">--verbose --profile=architect</text>
+
+    <!-- Main Identity Heading -->
+    <text x="0" y="48" fill="url(#titleGrad)" font-size="40" font-weight="800" letter-spacing="-0.8" class="sans">FanDuck</text>
+    <rect x="176" y="22" width="132" height="24" rx="6" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.4" stroke-width="1" />
+    <text x="242" y="38" text-anchor="middle" fill="#34D399" font-size="11.5" font-weight="600" class="mono">SYSTEMS &amp; AI</text>
+
+    <!-- Tagline -->
+    <text x="0" y="80" fill="#94A3B8" font-size="15.5" font-weight="500" class="sans">
+      Independent Systems Builder · Autonomous Agent Architect · Local-First Advocate
+    </text>
+
+    <!-- Philosophy Code Block -->
+    <g transform="translate(0, 102)">
+      <rect x="0" y="0" width="520" height="96" rx="8" fill="#090E17" fill-opacity="0.85" stroke="#1E293B" stroke-width="1" />
+      <rect x="0" y="0" width="3" height="96" rx="1.5" fill="url(#accentGrad)" />
+      <text x="16" y="24" fill="#64748B" font-size="12" class="mono">// Core Engineering Manifesto</text>
+      <text x="16" y="46" fill="#E2E8F0" font-size="12.5" class="mono">
+        <tspan fill="#38BDF8">const</tspan> <tspan fill="#34D399">principles</tspan> = [
+      </text>
+      <text x="32" y="66" fill="#F8FAFC" font-size="12" class="mono">
+        <tspan fill="#F59E0B">"Zero-Bloat Architecture"</tspan>, <tspan fill="#38BDF8">"Local-First Sovereignty"</tspan>, <tspan fill="#A78BFA">"Self-Evolving Agents"</tspan>
+      </text>
+      <text x="16" y="84" fill="#E2E8F0" font-size="12.5" class="mono">];</text>
+    </g>
+
+    <!-- Interactive Prompt Line at Bottom -->
+    <g transform="translate(0, 224)">
+      <text x="0" y="0" fill="#10B981" font-size="13" font-weight="700" class="mono">❯</text>
+      <text x="18" y="0" fill="#94A3B8" font-size="13" class="mono">./deploy-flagship-stack.sh --targets=aetherclaw,synapsepipe,cadenza</text>
+      <rect x="536" y="-12" width="8" height="15" fill="#10B981" class="cursor" />
+    </g>
+  </g>
+
+  <!-- Right Column: Live System Architecture & Shipped Modules Card -->
+  <g transform="translate(592, 62)">
+    <rect x="0" y="0" width="370" height="248" rx="10" fill="#090E17" fill-opacity="0.9" stroke="#1E293B" stroke-width="1" />
+    
+    <!-- Header of Right Card -->
+    <text x="18" y="26" fill="#38BDF8" font-size="11.5" font-weight="700" letter-spacing="0.8" class="mono">⚡ ACTIVE OPEN-SOURCE MODULES</text>
+    <line x1="18" y1="38" x2="352" y2="38" stroke="#1E293B" stroke-width="1" />
+
+    <!-- Module 1: AetherClaw -->
+    <g transform="translate(18, 50)">
+      <rect x="0" y="0" width="334" height="52" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="0.8" />
+      <circle cx="16" cy="20" r="4" fill="#10B981" />
+      <text x="28" y="24" fill="#F8FAFC" font-size="13" font-weight="700" class="mono">AetherClaw (灵爪)</text>
+      <text x="266" y="23" fill="#38BDF8" font-size="10.5" class="mono">[v1.3.0]</text>
+      <text x="28" y="41" fill="#64748B" font-size="11" class="sans">Self-Evolving Win/Linux AI Agent · SKILL.md</text>
+    </g>
+
+    <!-- Module 2: SynapsePipe -->
+    <g transform="translate(18, 112)">
+      <rect x="0" y="0" width="334" height="52" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="0.8" />
+      <circle cx="16" cy="20" r="4" fill="#06B6D4" />
+      <text x="28" y="24" fill="#F8FAFC" font-size="13" font-weight="700" class="mono">SynapsePipe</text>
+      <text x="252" y="23" fill="#A78BFA" font-size="10.5" class="mono">[Next.js 15]</text>
+      <text x="28" y="41" fill="#64748B" font-size="11" class="sans">Local-First AIGC Workbench · SQLite + Drizzle</text>
+    </g>
+
+    <!-- Module 3: Cadenza -->
+    <g transform="translate(18, 174)">
+      <rect x="0" y="0" width="334" height="52" rx="6" fill="#0F172A" stroke="#1E293B" stroke-width="0.8" />
+      <circle cx="16" cy="20" r="4" fill="#F59E0B" />
+      <text x="28" y="24" fill="#F8FAFC" font-size="13" font-weight="700" class="mono">Cadenza</text>
+      <text x="256" y="23" fill="#FBBF24" font-size="10.5" class="mono">[tsc-only]</text>
+      <text x="28" y="41" fill="#64748B" font-size="11" class="sans">Plugin-First Audio Engine &amp; Desktop Player</text>
+    </g>
+  </g>
+</svg>
